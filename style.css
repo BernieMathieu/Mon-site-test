@@ -1,0 +1,204 @@
+/*reinitialisation*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+}
+
+main {
+    background-color: white;
+    padding: 103px 80px 106px 80px;
+    border: 1px solid black;
+}
+
+main section:first-of-type {
+    border: 1px solid black;
+    height: 204px;
+    margin-bottom: 17px;
+}
+
+main section:last-of-type {
+    border: 1px solid black;
+    height: 374px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 148px;
+
+}
+
+section>article {
+    height: 150px;
+    
+   
+}
+
+main section:first-of-type>h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 72px;
+    letter-spacing: -0.72px;
+    width: 750px;
+    height: ;
+
+}
+
+h5 {
+    border: 1px solid skyblue;
+    color: skyblue;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+    width: 130px;
+    height: 40px;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+main aside:first-of-type {
+    height: 204px;
+    margin-bottom: 7px;
+}
+
+main aside:last-of-type {
+    height: 374px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 48px;
+
+}
+
+.btn {
+    color: white;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+    width: 130px;
+    height: 40px;
+    background-color: skyblue;
+}
+
+.forme {
+    background-color: gainsboro;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.forme1 {
+    background-color: gainsboro;
+    border: 1px solid black;
+    height: 440px;
+       
+}
+
+main aside {
+    align-items: center;
+}
+
+.forme2 {
+    
+    border: 1px solid black;  
+    height: 740px;
+    
+    background-color: gainsboro;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+.bloc {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    column-gap: 84px;
+    align-self: center;
+}
+
+.parent4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 20px;
+    
+}
+
+.forme3 {
+    border: 1px solid black;  
+    height: 108px;
+    width: 108px;
+    border-radius: 100%;
+    background-color: gainsboro; 
+}
+
+span {
+    background-color: white;
+}
+
+.bloc1 {
+    display: flex;
+    margin-top: 20px;
+}
+.forme4 {
+    border: 1px solid black;  
+    height: 740px;
+    width: 830px;
+    background-color: gainsboro;   
+}
+
+.forme5 {
+    border: 1px solid black;  
+    height: 300px;
+    background-color: gainsboro;  
+}
+
+.forme6 {
+    border: 1px solid black;  
+    height: 275px;
+    width: 350px;
+    background-color: gainsboro; 
+    
+}  
+.eclipse {
+    gap: 31px;
+}
+
+.eclipse1 {
+    width: 44px;
+    height: 44px;
+    background-color: gainsboro;
+    border: 1px solid black;
+    gap: 31px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.beblock {
+   display: flex; 
+   column-gap:0;
+}
+
+.text {
+    margin-top: 20px;  
+}
+.text1 {
+    margin-top: 10px;   
+}
+
+.text2 {
+    margin-top: 50px; 
+}
+.text3 {
+    margin-top: 50px; 
+}
